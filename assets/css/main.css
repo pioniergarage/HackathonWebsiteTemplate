@@ -1,0 +1,488 @@
+/*
+    Logo in Navbar
+*/
+body {
+    overflow-x: hidden;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav .pg img {
+    max-height: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav .logo img {
+    max-height: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav .btn-action {
+    background-color: #b31918;
+    text-align: center;
+    color: white !important;
+}
+
+.nav .btn-action:hover {
+    background-color: #ba4444 !important;
+    text-align: center;
+    color: white;
+}
+
+.invert {
+       -webkit-filter: invert(100%);
+       filter: invert(100%);
+   }
+
+/*
+    Section Inspiration
+*/
+
+#Inspiration {
+    padding-top: 40px;
+    background-color: white;
+}
+
+    #Inspiration header {
+        margin-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    #Inspiration p {
+        padding-bottom: 1em;
+    }
+
+    #Inspiration section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #Inspiration .small {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        background-color: #b31918;
+    }
+
+    #Inspiration .content {
+        background-color: white;
+    }
+
+    #Inspiration .one {
+        background: url("../../images/OneOverlay.jpg");
+        background-size: 256px 256px, cover;
+        background-attachment: fixed, fixed;
+        background-position: top left, center center;
+        background-size: cover;
+    }
+
+    #Inspiration .two {
+        background: url("../../images/TwoOverlay.jpg");
+        background-size: 256px 256px, cover;
+        background-attachment: fixed, fixed;
+        background-position: top left, center center;
+        background-size: cover;
+    }
+
+    #Inspiration .three {
+        background: url("../../images/ThreeOverlay.jpg");
+        background-size: 256px 256px, cover;
+        background-attachment: fixed, fixed;
+        background-position: top left, center center;
+        background-size: cover;
+    }
+
+    #Inspiration .style {
+        padding: 3em 0 3em 0;
+        overflow: hidden;
+    }
+
+        #Inspiration .style .content {
+            -moz-transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+            -moz-transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            position: relative;
+            width: 35%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        #Inspiration .style.left:after {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        }
+
+        #Inspiration .style.left .content {
+            left: 0;
+        }
+
+        #Inspiration .style.right:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        }
+
+        #Inspiration .style.right .content {
+            left: 65%;
+        }
+
+        #Inspiration .style.inactive.left .content {
+            left: -35%;
+        }
+
+        #Inspiration .style.inactive.right .content {
+            left: 100%;
+        }
+/*
+    Icons
+*/
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+/*
+    Footer
+*/
+
+#footer {
+    width:100%;
+    background-color: #22313F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    #footer .left ul {
+        padding: 0;+
+        float: left;
+    }
+
+    #footer .left ul li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size:.75em;
+    }
+
+    #footer .left ul li a {
+        color: #fff;
+        margin: 0;
+    }
+
+    #footer .right ul {
+        padding: 0;
+        float: right;
+    }
+
+    #footer .right ul li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size:.75em;
+    }
+
+    #footer .right ul li a {
+        color: #fff;
+        margin: 0;
+    }
+
+/*
+    Section Sponsoren
+*/
+
+#Sponsor {
+    background-color: white;
+}
+
+#Sponsor .logo img{
+    height: 20vh;
+}
+
+/*
+    Section Beschreibung
+*/
+
+#Beschreibung {
+  background-color: white;
+}
+
+    #Beschreibung header {
+        padding-top: 2em;
+        padding-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    #Beschreibung .timetable {
+        padding-top: 2em;
+    }
+
+    /* Icons */
+
+    #Beschreibung .col-centred {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #Beschreibung .middle {
+        position: relative;
+        z-index: 1;
+    }
+
+        #Beschreibung .middle:before {
+            content: '';
+            width: 32px;
+            height: 100%;
+            position: absolute;
+            left: -24px;
+            top: 0;
+            display: block;
+            z-index: -1;
+            box-shadow: 32px 0 0 0 #fff, 0 -20px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -20px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+        }
+
+        #Beschreibung .middle:after {
+            content: '';
+            width: 32px;
+            height: 100%;
+            position: absolute;
+            right: -24px;
+            top: 0;
+            display: block;
+            z-index: -1;
+            box-shadow: -32px 0 0 0 #fff, 0 -20px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -20px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+        }
+
+	#Beschreibung .icon {
+		position: relative;
+		text-decoration: none;
+        text-align: center;
+	}
+
+		#Beschreibung .icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		#Beschreibung .icon > .label {
+			display: none;
+		}
+
+		#Beschreibung .icon.featured {
+			position: relative;
+			display: inline-block;
+			background-color: #F89406;
+			width: 9em;
+			padding: 1.75em 0 0.75em 0;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			cursor: default;
+		}
+
+			#Beschreibung .icon.featured:before {
+				font-size: 4.5em;
+				line-height: 1em;
+				color: #fff;
+			}
+
+			#Beschreibung .icon.featured:after {
+				content: '';
+				position: absolute;
+				bottom: -1.95em;
+				left: 0;
+				border-top: solid 2em #F89406;
+				border-left: solid 4.5em transparent;
+				border-right: solid 4.5em transparent;
+			}
+
+			#Beschreibung .icon.featured.alt {
+				background-color: #ABB7B7;
+			}
+
+				#Beschreibung .icon.featured.alt:after {
+					border-top-color: #ABB7B7;
+				}
+
+			#Beschreibung .icon.featured.alt2 {
+				background-color: #2ECC71;
+			}
+
+				#Beschreibung .icon.featured.alt2:after {
+					border-top-color: #2ECC71;
+				}
+
+
+/*
+    Section FAQ
+*/
+
+#FAQ {
+  padding-top: 40px;
+  background-color: white;
+}
+
+    #FAQ .centeredText {
+        text-align: center;
+    }
+
+    #FAQ .btn-action {
+        background-color: #b31918;
+        font-size: 1.8em;
+        text-align: center;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 30px;
+    }
+
+/*
+    Logo in Banner
+*/
+
+	#banner {
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+		#banner p {
+			color: white;
+			padding-bottom: 30px;
+            font-size: 1.5em;
+			font-style: normal;
+			margin: 0;
+		}
+
+        #banner .btn-action {
+            background-color: #b31918;
+            font-size: 1.8em;
+            text-align: center;
+            color: white;
+            padding: 10px 20px 10px 20px;
+        }
+
+    /* Desktop */
+
+    @media screen and (min-width: 737px) {
+        #banner {
+            position: relative;
+            padding-top: 8em;
+            padding-bottom: 2em;
+            margin: 0 0 0 0;
+        }
+    }
+
+    /* Tablet */
+
+    @media screen and (min-width: 737px) and (max-width: 1200px) {
+        #banner {
+            padding: 6em 0;
+            margin: 3em 0 0 0;
+        }
+    }
+
+    /* Mobile */
+
+	@media screen and (max-width: 736px) {
+
+        #banner {
+            margin: 2em 0 4em 0 !important;
+            padding: 6em 0;
+        }
+
+            #banner header {
+                padding: 1.5em 1em 1.5em 1em;
+            }
+
+                #banner header h2 {
+                    font-size: 1.5em;
+                    line-height: 1.5em;
+                    margin: 0 0 0.25em 0;
+                }
+
+                #banner header p {
+                    font-size: 1.2em;
+                }
+    }
+
+/*
+    Video background settings
+*/
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../../images/videoframe.jpg') center center / cover no-repeat;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+    .hidden {
+        visibility: hidden;
+    }
+}
